@@ -1,0 +1,71 @@
+.working-experience {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 60vh;
+  color: #fff;
+}
+
+.working-experience-bg {
+  background: url(../../../public/images/working-experience.png);
+  background-size: contain;
+  padding: 20px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.6;
+  left: 0
+}
+
+.working-experience h1 {
+  font-size: 1.75em;
+  margin: 0;
+}
+
+.working-experience h2 {
+  display: block;
+  width: 90%;
+  font-size: 2em;
+  text-align: center;
+}
+
+.working-experience span {
+  font-size: 1.375em;
+  text-align: center;
+  max-width: 80%
+}
+
+@media (max-width: 750px) {
+  .working-experience h2 {
+    font-size: 1.75em
+  }
+}
+
+@media (max-width: 500px) {
+  .working-experience h1 {
+    font-size: 1.375em
+  }
+  .working-experience h2 {
+    font-size: 1.5em
+  }
+  .working-experience span {
+    font-size: 1.125em
+  }
+}
+
+@media (max-width: 400px) {
+  .working-experience h1 {
+    font-size: 1.125em
+  }
+  .working-experience h2 {
+    font-size: 1.25em
+  }
+  .working-experience span {
+    font-size: 100%
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "devshop.by - first store for developers in Belarus",
+    "overview": "We just love cool tees",
+    "technologies": "React",
+    "link": "http://devshop.by",
+    "image": "devshop.png"
+  },
+  {
+    "id": 2,
+    "title": "Github Label Manager",
+    "overview": "Easily create, delete or update labels for multiple Github repos",
+    "technologies": "NodeJS",
+    "link": "https://github.com/smoothpie/git-label-cli",
+    "image": "labels.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Reading Archive",
+    "overview": "A place to store books I read/want to read with an opportunity to take notes and filter books by status",
+    "technologies": "React, NodeJS, MobX, Sequelize, MaterialUI, Docker",
+    "link": "http://devshop.by",
+    "image": "reading-archive.png"
+  },
+  {
+    "id": 4,
+    "title": "RecordDates Telegram Bot",
+    "overview": "Get dates for upcoming/latest releases of your favorite artists",
+    "technologies": "NodeJS",
+    "link": "https://telegram.me/RecordDatesBot",
+    "image": "bot.png"
+  },
+  {
+    "id": 5,
+    "title": "Inventory Business Process",
+    "overview": "Replaced huge amounts of monotonous calculations during my Inventory Managemant course at university with a couple buttons",
+    "technologies": "React, NodeJS, Sequelize, MaterialUI, Docker",
+    "link": "http://devshop.by",
+    "image": "inventory.png"
+  }
+]
