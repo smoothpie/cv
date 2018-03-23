@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "HTML5",
+    "image": "html-5.png"
+  },
+  {
+    "id": 2,
+    "title": "CSS3",
+    "image": "css-3.png"
+  },
+  {
+    "id": 3,
+    "title": "JavaScript",
+    "image": "javascript.png"
+  },
+  {
+    "id": 4,
+    "title": "React",
+    "image": "react.png"
+  },
+  {
+    "id": 5,
+    "title": "MobX",
+    "image": "mobx.png"
+  },
+  {
+    "id": 6,
+    "title": "Redux",
+    "image": "redux.png"
+  },
+  {
+    "id": 7,
+    "title": "NodeJS",
+    "image": "nodejs.png"
+  },
+  {
+    "id": 8,
+    "title": "Webpack",
+    "image": "webpack.png"
+  },
+  {
+    "id": 9,
+    "title": "Git",
+    "image": "git.png"
+  },
+  {
+    "id": 10,
+    "title": "Docker",
+    "image": "docker.png"
+  },
+  {
+    "id": 11,
+    "title": "Linux CLI",
+    "image": "terminal.png"
+  },
+  {
+    "id": 12,
+    "title": "A little C#",
+    "image": "csharp.png"
+  }
+]
