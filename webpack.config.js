@@ -12,7 +12,7 @@ module.exports = {
   context: path.resolve(__dirname),
   output: {
     publicPath: '/',
-    path: path.resolve(__dirname, 'lib'),
+    path: path.resolve(__dirname, 'docs'),
     filename: `index.js`,
   },
   devtool: 'inline-source-map',

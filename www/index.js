@@ -13,10 +13,10 @@ app.use(bodyParser.json());
 
 app.use('/api', routes);
 
-app.use(express.static(path.join(__dirname, './../lib')));
+app.use(express.static(path.join(__dirname, './../docs')));
 
 app.get('*', (req, res) => {
-  res.sendFile(path.resolve(__dirname + './../lib/index.html'));
+  res.sendFile(path.resolve(__dirname + './../docs/index.html'));
 });
 
 app.listen(port, (err) => {
