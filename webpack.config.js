@@ -54,7 +54,7 @@ module.exports = {
                 speed: 4
               },
               webp: {
-                quality: 75
+                enabled: false
               }
             }
           },
