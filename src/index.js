@@ -5,7 +5,7 @@ import Construction from './components/Construction/Construction';
 import MainPage from './components/MainPage/MainPage';
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Switch>
 	    <Route exact path='/' component={Construction} />
       <Route path='/cv' component={MainPage} />
