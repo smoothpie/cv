@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import axios from 'axios';
 import Header from '../Header/Header';
 import MyProjects from '../MyProjects/MyProjects';
 import WorkingExperience from '../WorkingExperience/WorkingExperience';
@@ -13,23 +12,7 @@ class MainPage extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      projects: [],
-      skills: []
     }
-  }
-
-  componentDidMount() {
-    const { projects } = this.state;
-    axios.get('/api/projects').then((res) => {
-      this.setState({
-        projects: res.data
-      })
-    })
-    axios.get('/api/skills').then((res) => {
-      this.setState({
-        skills: res.data
-      })
-    })
   }
 
   render() {
@@ -38,9 +21,9 @@ class MainPage extends Component {
         <div className="header_bg"></div>
         <div className="main">
 	        <Header />
-          <MyProjects projects={this.state.projects} />
+          <MyProjects />
           <WorkingExperience />
-          <ProfessionalSkills skills={this.state.skills} />
+          <ProfessionalSkills />
 	        <Features />
           <BetterHireMe />
         </div>

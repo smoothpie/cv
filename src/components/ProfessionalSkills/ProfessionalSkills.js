@@ -2,7 +2,9 @@ import React from 'react';
 import Skill from '../Skill/Skill';
 import './ProfessionalSkills.less';
 
-const ProfessionalSkills = ({ skills }) => {
+const skills = require('../../../skills.json');
+
+const ProfessionalSkills = () => {
   let skillsList = skills.map((skill, i) => {
     return <Skill key={i} skill={skill} />
   });

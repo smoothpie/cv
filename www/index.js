@@ -6,12 +6,9 @@ const bodyParser = require('body-parser');
 const host = process.env.HOST ? process.env.HOST : 'localhost';
 const port = process.env.PORT ? process.env.PORT : 3000;
 const path = require('path');
-const routes = require('../routes.js');
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-
-app.use('/api', routes);
 
 app.use(express.static(path.join(__dirname, './../docs')));
 

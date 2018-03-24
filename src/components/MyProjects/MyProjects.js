@@ -2,7 +2,9 @@ import React from 'react';
 import Project from '../Project/Project';
 import './MyProjects.less';
 
-const MyProjects = ({projects}) => {
+const projects = require('../../../projects.json');
+
+const MyProjects = () => {
   let projectList = projects.map((project, i) => {
     return <Project key={i} project={project}/>
   })
