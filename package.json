@@ -5,6 +5,7 @@
   "author": "Karina Kupriyanovich <kupriyanovichk72@gmail.com>",
   "license": "ISC",
   "main": "index.js",
+  "homepage": "https://smoothpie.github.io/thatscv",
   "scripts": {
     "build": "webpack",
     "dev": "webpack-dev-server",
