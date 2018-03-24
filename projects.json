@@ -20,7 +20,7 @@
     "title": "Reading Archive",
     "overview": "A place to store books I read/want to read with an opportunity to take notes and filter books by status",
     "technologies": "React, NodeJS, MobX, Sequelize, MaterialUI, Docker",
-    "link": "http://devshop.by",
+    "link": "http://159.65.121.21:3003/",
     "image": "reading-archive.png"
   },
   {
@@ -30,13 +30,5 @@
     "technologies": "NodeJS",
     "link": "https://telegram.me/RecordDatesBot",
     "image": "bot.png"
-  },
-  {
-    "id": 5,
-    "title": "Inventory Business Process",
-    "overview": "Replaced huge amounts of monotonous calculations during my Inventory Managemant course at university with a couple buttons",
-    "technologies": "React, NodeJS, Sequelize, MaterialUI, Docker",
-    "link": "http://devshop.by",
-    "image": "inventory.png"
   }
 ]

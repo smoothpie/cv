@@ -7,7 +7,7 @@ import MainPage from './components/MainPage/MainPage';
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-	    <Route path={process.env.PUBLIC_URL + '/'} component={Construction} />
+	    <Route exact path='/' component={Construction} />
       <Route path='/cv' component={MainPage} />
     </Switch>
   </BrowserRouter>,
