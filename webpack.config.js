@@ -52,9 +52,6 @@ module.exports = {
               pngquant: {
                 quality: '65-90',
                 speed: 4
-              },
-              webp: {
-                enabled: false
               }
             }
           },
