@@ -22,7 +22,7 @@ const Features = () => (
         <div className="feature__img-container">
           <img src={require("../../../public/images/features/presentation.png")} />
         </div>
-        <span>Not a single presentation without applause (Im secretely applying to do your tech presentations)</span>
+        <span>Not a single presentation without applause (I'm secretely applying to do your tech presentations)</span>
       </div>
       <div className="feature">
         <div className="feature__img-container">
@@ -40,7 +40,7 @@ const Features = () => (
         <div className="feature__img-container">
           <img src={require("../../../public/images/features/knowledge.png")} />
         </div>
-        <span>Knowledge addict - cant stop till I know it all</span>
+        <span>Knowledge addict - can't stop till I know it all</span>
       </div>
     </div>
   </div>

@@ -3,7 +3,7 @@ import './Header.less';
 
 const Header = () => (
   <div className="header">
-    <h1>Hey, Im Karina Kupriyanovich</h1>
+    <h1>Hey, I'm Karina Kupriyanovich</h1>
     <h2>( = your new Junior Javascript Developer )</h2>
     <div className="header-info">
       <div className="header-info__contacts">
